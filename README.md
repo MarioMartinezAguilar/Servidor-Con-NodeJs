@@ -80,15 +80,15 @@
     },
 ```
 ## VISTA PREVIA DE NUESTRO SERVIDOR NODEJS CORRIENDO(npm start)
-[!servidor nodejs](./img/nodejs.png)
+![servidor nodejs](./img/nodejs.png)
 
 ## AHORA NUESTRA API CORRIENDO EN EL NAVEGADOR POR LOS DIFERENTES ENDPOINTS(Urls de la aplicación):
 + localhost:3000/profesores
-[!profesores](./img/nodejs1.png)
+![profesores](./img/nodejs1.png)
 + localhost:3000/alumnos
-[!alumnos](./img/nodejs2.png)
+![alumnos](./img/nodejs2.png)
 + localhost:3000/tecnologías
-[!tecnologías](./img/nodejs3.png)
+![tecnologías](./img/nodejs3.png)
 
 ## MANEJO DE PETICIONES HTTP(METODOS HTTP)
 **Para finalizar vamos a consumir este pequeño back-end que hicimos, para ello vamos a utilizar un cliente en esta caso utilizaremos la herramienta Insomnia que es para probar los diferentes métodos http más utilizados a la hora de consumir una API**
@@ -104,36 +104,36 @@
 **Ahora vamos a probar todos los métodos mencionados anteriormente vamos a usar Insomnia que es un software que nos permite probar el funcionamiento de estos métodos a la hora de consumir un Back-end y ver la información que nos trae. A continuación los métodos HTTP**
 ## METODO GET(http://localhost:3000/profesores)
 **Nos trae todos los profesores que están en la base de datos**
-[!GET](./img/get.png) 
+![GET](./img/get.png) 
 
 ## METODO POST(http://localhost:3000/profesores)
 **Agregamos a un nuevo profesor mandando la información un formato json**
-[!POST](./img/post.png)
+![POST](./img/post.png)
 
 ## METODO GET POR ID(http://localhost:3000/tecnologìas/2b07)
 **Usamos el método get por id para traernos una materia que en este caso son tecnologías por su id**
-[!GETID](./img/getid.png)
+![GETID](./img/getid.png)
 
 ## METODO PUT(http://localhost:3000/profesores/:id)
 **Aquí vamos a actualizar un registro en la prueba fue actualizar a un profesor por id y le agregamos otra materia mandando el id en la url**
-[!PUT](./img/put.png)
+![PUT](./img/put.png)
 
 ## METODO PATCH(http://localhost:3000/profesores/:id)
 **Con el método PATCH actualizamos de manera parcial un registro para la prueba fue cambiar el apellido al profesor también colocando el id en la url y mandando en el body solamente el campo que queremos actualizar**
-[!PATCH](./img/patch.png)
+![PATCH](./img/patch.png)
 
 ## METODO DELETE(http://localhost:3000/profesores/:id)
 **Método DELETE  lo aplicamos para borrar un registro en este caso fue eliminar a un profesor igual pasamos su id en la url y aplicamos el método**
-[!DELETE](./img/delete.png)
+![DELETE](./img/delete.png)
 
 ## METODO GET EN LAS ENTIDADES TECNOLOGIAS Y ALUMNOS
 **Todo está funcionando bien verificamos el método GET en las otras dos entidades y nos trae todos los alumnos y todas las materias que llamamos tecnologías en esta práctica**
 
 + Método GET(Tecnologías)
-[!GETTECNO](./img/gettecno.png)
+![GETTECNO](./img/gettecno.png)
 
 + Método GET(Alumnos)
-[!GETALUM](./img/getalum.png)
+![GETALUM](./img/getalum.png)
 
 ### Lista De Tecnologías, Propiedades De NodeJs y Herramientas Usadas En Nuestro Proyecto(Creando Un Servidor Con NodeJs)  
 
