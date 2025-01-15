@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-json-server",
+  "version": "1.0.0",
+  "description": "Armaremos un servidor con información de tecnologías para desarrollar aplicaciones web",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Mario Martínez Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
